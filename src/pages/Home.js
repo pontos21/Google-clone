@@ -6,9 +6,10 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Search from "./Search"
 
 
+
 const Home = () => {
     return (
-    <div className='home'>
+    <div className="home">
         <div className="home__header">
             <div className="home__header--left">
                 <Link to='/about'>About</Link>
@@ -21,15 +22,16 @@ const Home = () => {
                 <AccountCircleIcon />
             </div>
         </div>
-        
         <div className="home__body">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></img>
+            <img 
+                src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
+                alt=""
+            />
+            <div className="home__input--container">
+                <Search hideButtons />
+            </div>
         </div>
-        <div className="home__input--container">
-            <Search />
-        </div>
-
-    </div>    
+    </div>  
     );
 }
 
