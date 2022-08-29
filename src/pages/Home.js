@@ -3,7 +3,7 @@ import './Home.css'
 import { Link } from "react-router-dom"
 import AppsIcon from '@mui/icons-material/Apps';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Search from "./Search"
+import Search from "../Search"
 
 
 
