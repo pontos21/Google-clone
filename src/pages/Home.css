@@ -22,14 +22,14 @@
     text-decoration:underline;
 }
 
-.home__header--right {
+.home__headerRight {
     display: flex;
     align-items: center;
     min-width: 13vw;
     justify-content: space-between;
 }
 
-.home__header--right > .MuiSvgIcon-root {
+.home__headerRight> .MuiSvgIcon-root {
     margin-right: 20px;
 }
 
@@ -43,4 +43,8 @@
 .home__body > img {
     object-fit: contain;
     height: 100px;
+}
+
+.home__inputContainer {
+    margin: 0 auto;
 }
